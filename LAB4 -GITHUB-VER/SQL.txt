@@ -1,0 +1,14 @@
+CREATE DATABASE arduino;
+
+create table infoarduino(
+idtemp int PRIMARY KEY,
+humedad float,
+centigrados float,
+fecha text
+);
+
+SELECT * FROM infoarduino;
+
+TRUNCATE TABLE infoarduino;
+
+DROP DATABASE arduino;
